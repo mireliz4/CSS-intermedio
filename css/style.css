@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Funnel+Display:wght@300..800&display=swap');
+
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Funnel Display, sans-serif;
+}
+
+.cards{
+    display: flex;
+    
+}
+
+
+.card{
+    flex: 50px;
+    margin: 60px;
+    border: 5px solid navy;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    border-radius: 10px;
+    transition:background-color 0.3s ease;
+   
+}
+.card:hover{
+    background-color: lightblue;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.card .content{
+    text-align: center;
+    flex-grow: 1;
+    flex-shrink: 1;
+   
+}
+
+
+.card .footer{
+    background-color: blue;
+    padding: 25px;
+    text-align: center;
+    
+    
+}
+
+.personaje{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    margin: 50px;
+}
+
