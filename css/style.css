@@ -53,3 +53,33 @@ body,html{
     margin: 50px;
 }
 
+a{
+    text-decoration: none;
+    color: brown;
+}
+
+header{
+    text-align: center;
+    align-content: center;
+    background-color: aqua;
+    padding-top: 10%;
+}
+nav{
+    background-color: rgb(126, 40, 119);
+}
+aside{
+    background-color: blueviolet;
+}
+
+section{
+    background-color: chartreuse;
+}
+article{
+    background-color: rgb(234, 79, 177);
+}
+footer{
+    padding: 25px;
+    margin-top: 95%;
+    text-align: center;
+    background-color: rgb(119, 248, 220);
+}
